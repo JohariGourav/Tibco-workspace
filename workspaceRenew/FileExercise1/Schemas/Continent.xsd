@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Continent" xmlns:tns="http://www.example.org/Continent" elementFormDefault="qualified">
+
+    <element name="mondial" type="tns:continent"></element>
+
+    <complexType name="continent">
+    	<attribute name="id" type="string"></attribute>
+    	<attribute name="name" type="string"></attribute>
+    </complexType>
+</schema>

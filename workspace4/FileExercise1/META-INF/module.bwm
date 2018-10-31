@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_eb9NcLvCEeiz0djJ9cHzXQ" targetNamespace="http://tns.tibco.com/bw/composite/FileExercise1" name="FileExercise1" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_eqYrALvCEeiz0djJ9cHzXQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eqbuULvCEeiz0djJ9cHzXQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eqc8cLvCEeiz0djJ9cHzXQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eqeKkLvCEeiz0djJ9cHzXQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eqfYsLvCEeiz0djJ9cHzXQ" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eqhN4LvCEeiz0djJ9cHzXQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eqicALvCEeiz0djJ9cHzXQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eqkRMLvCEeiz0djJ9cHzXQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_eqn7kLvCEeiz0djJ9cHzXQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_ejHlYLvCEeiz0djJ9cHzXQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_ejHlYbvCEeiz0djJ9cHzXQ" processName="fileexercise1_18-09-18.Que1_CopyAll"/>
+  </sca:component>
+  <sca:component xmi:id="_cOY3wLvEEeiz0djJ9cHzXQ" name="ComponentMoveAll" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_cOY3wbvEEeiz0djJ9cHzXQ" processName="fileexercise1_18-09-18.Que2_MoveAll"/>
+  </sca:component>
+  <sca:component xmi:id="_fP8u0LvFEeiz0djJ9cHzXQ" name="ComponentQue3_MoveAll" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_fP8u0bvFEeiz0djJ9cHzXQ" processName="fileexercise1_18-09-18.Que4_MoveAllByType"/>
+  </sca:component>
+  <sca:component xmi:id="_dA1EgLvIEeiz0djJ9cHzXQ" name="ComponentQue4_MoveAllByType" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_dA1EgbvIEeiz0djJ9cHzXQ" processName="fileexercise1_18-09-18.Que3_MoveAll"/>
+  </sca:component>
+  <sca:component xmi:id="_TVTOsL1aEei6D8-9y5LmRQ" name="ComponentQue4_MoveAllBySize" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_TVTOsb1aEei6D8-9y5LmRQ" processName="fileexercise1_18-09-18.Que5_MoveAllBySize"/>
+  </sca:component>
+  <sca:component xmi:id="_jfjz0L_sEei6D8-9y5LmRQ" name="ComponentQue6_SellerNameXml" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_jfjz0b_sEei6D8-9y5LmRQ" processName="fileexercise1_18-09-18.Que6_SellerNameXml"/>
+  </sca:component>
+</sca:composite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_Rfz6IMr3EeiVsokY-yFkMQ" targetNamespace="http://tns.tibco.com/bw/composite/JMS" name="JMS" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_SLi-wMr3EeiVsokY-yFkMQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SLsIsMr3EeiVsokY-yFkMQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SLwaIMr3EeiVsokY-yFkMQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SL0rkMr3EeiVsokY-yFkMQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SL49AMr3EeiVsokY-yFkMQ" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SL9OcMr3EeiVsokY-yFkMQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SMARwMr3EeiVsokY-yFkMQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SMD8IMr3EeiVsokY-yFkMQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_SMHmgMr3EeiVsokY-yFkMQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_R5as8Mr3EeiVsokY-yFkMQ" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_R5as8cr3EeiVsokY-yFkMQ" processName="jms.MessageProducerProcess"/>
+  </sca:component>
+  <sca:component xmi:id="_ksWyEMr4EeiVsokY-yFkMQ" name="ComponentMessageConsumerProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_ksWyEcr4EeiVsokY-yFkMQ" processName="jms.MessageConsumerProcess"/>
+  </sca:component>
+  <sca:component xmi:id="_XdytgMuREeiVsokY-yFkMQ" name="ComponentMessagePublisherProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_XdytgcuREeiVsokY-yFkMQ" processName="jmsTopic.MessagePublisherProcess"/>
+  </sca:component>
+  <sca:component xmi:id="_H-WukMuSEeiVsokY-yFkMQ" name="ComponentMessageSubscriber2Process" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_H-WukcuSEeiVsokY-yFkMQ" processName="jmsTopic.MessageSubscriber2Process"/>
+  </sca:component>
+  <sca:component xmi:id="_9-eIkMuSEeiVsokY-yFkMQ" name="ComponentMessageSubscriber1Process" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_9-eIkcuSEeiVsokY-yFkMQ" processName="jmsTopic.MessageSubscriber1Process"/>
+  </sca:component>
+</sca:composite>

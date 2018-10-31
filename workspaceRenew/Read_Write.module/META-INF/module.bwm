@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_xBtxcLsvEeiz0djJ9cHzXQ" targetNamespace="http://tns.tibco.com/bw/composite/Read_Write.module" name="Read_Write.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_xOwu8LsvEeiz0djJ9cHzXQ" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xO2OgLsvEeiz0djJ9cHzXQ" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xO4DsLsvEeiz0djJ9cHzXQ" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xO7HALsvEeiz0djJ9cHzXQ" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xO88MLsvEeiz0djJ9cHzXQ" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xO__gLsvEeiz0djJ9cHzXQ" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xPB0sLsvEeiz0djJ9cHzXQ" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xPE4ALsvEeiz0djJ9cHzXQ" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_xPGtMLsvEeiz0djJ9cHzXQ" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_0NrXILsvEeiz0djJ9cHzXQ" name="ComponentBasicOps" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_0NrXIbsvEeiz0djJ9cHzXQ" processName="read_write.module.BasicOps"/>
+  </sca:component>
+  <sca:component xmi:id="_34zlELsvEeiz0djJ9cHzXQ" name="ComponentFilePoller" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_34zlEbsvEeiz0djJ9cHzXQ" processName="read_write.module.FilePoller"/>
+  </sca:component>
+</sca:composite>

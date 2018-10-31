@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/CopyPath" xmlns:tns="http://www.example.org/CopyPath" elementFormDefault="qualified">
+
+    <element name="CopyPath" type="tns:PathType"></element>
+    
+    <complexType name="PathType">
+    	<sequence>
+    		<element name="From" type="string"></element>
+    		<element name="To" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>
